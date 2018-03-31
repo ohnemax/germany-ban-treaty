@@ -1,0 +1,1300 @@
+# This work is licensed under a
+# Creative Commons Attribution-ShareAlike 4.0 International License.
+
+# You should have received a copy of the license along with this
+# work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
+
+#+TITLE:     How can Germany become a Member of the Ban Treaty
+#+BEAMER_HEADER: \title[Germany joins the Ban Treaty]{How can Germany become a \\Member of the Ban Treaty}
+#+AUTHOR:    Moritz Kütt (kuett@princeton.edu)
+#+BEAMER_HEADER: \author[M. Kütt]{Moritz Kütt (kuett@princeton.edu)}
+#+DATE:      March 14, 2018
+#+BEAMER_HEADER: \institute{Program on Science and Global Security \\[2em] \vfill \ccbysa \\[0.4em] \tiny \textcolor{gray!85}{Detailed image references at the end of the presentation.}}
+#+STARTUP: beamer
+#+OPTIONS: H:2 toc:\nil num:t
+#+LATEX_CLASS: beamer
+#+LATEX_COMPILER: xelatex
+#+BEAMER_THEME: metropolis[titleformat=smallcaps,progressbar=frametitle]
+#+BEAMER_HEADER: \usepackage{orgbeamerdefaults}
+#+BEAMER_HEADER: \setbeamerfont{block title}{size=\footnotesize}
+#+BEAMER_HEADER: \setbeamerfont{block title alerted}{size=\footnotesize}
+#+BEAMER_HEADER: \setbeamerfont{block title example}{size=\footnotesize}
+#+BEAMER_HEADER: \setbeamerfont{block body}{size=\scriptsize}
+#+BEAMER_HEADER: \setbeamerfont{block body alerted}{size=\scriptsize}
+#+BEAMER_HEADER: \setbeamerfont{block body example}{size=\scriptsize}
+
+#+BEAMER_HEADER: \usepackage[none]{hyphenat}
+#+BEAMER_HEADER: \definecolor{nuco}{HTML}{e2f2fa}
+#+BEAMER_HEADER: \setsansfont[ItalicFont={Fira Sans Condensed Italic},BoldFont={Fira Sans Medium},BoldItalicFont={Fira Sans Medium Italic}]{Fira Sans Condensed}
+
+# #+BEAMER_HEADER: \usepackage{pgfpages} 
+# #+BEAMER_HEADER: \usepackage{handoutWithNotes} 
+# #+BEAMER_HEADER: \pgfpagesuselayout{3 on 1 with notes}[a4paper, border shrink=5mm]
+
+** Outline
+1) Germany: A NU Perspective
+2) More on Tactical Nuclear Weapons 
+3) (Domestic) Politics
+4) Joining the Ban Treaty
+5) Verification Options
+6) Conclusion / Recommendations
+
+#+BEAMER: \note{
+Assume TPNW is Ban Treaty
+Some General Background
+I'm not the expert on all things
+Field of experst on tactical nuclear weapons and especially NATO
+#+BEAMER: }
+
+
+* Germany: a NU Perspective
+** The Situation Today                             :noexport:B_ignoreheading:
+   :PROPERTIES:
+   :BEAMER_env: ignoreheading
+   :END:
+
+#+BEGIN_EXPORT latex
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{localimages/cc/nu/germany/germany-2018.png}}
+\begin{frame}{Germany Today}
+  \begin{tikzpicture}[remember picture,overlay]
+    \tikzset{cout/.style={
+        rounded corners = 0.04cm,
+        draw,
+        text width=2.5cm,
+        align=flush left,
+        rectangle callout,
+        fill=nuco,
+        font=\scriptsize}};
+
+  \node [cout, callout absolute pointer={(2.4,0.4)}, anchor=north] at (0.6,3.8) {
+  \alert{Fuel Fabrication} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  Framatome operates a plant in Lingen with a capacity of 650tHM/y\\
+  };
+  \node [cout, callout absolute pointer={(2.2,-1.6)},anchor=north] at (0.6,-2.3) {\alert{Uranium Enrichment} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  URENCO operates a plant in Gronau with a capacity of 4,000 tSWU/a\\
+};
+  \node [cout, callout absolute pointer={(4.4,-1)}, anchor=north] at (3.7,-2.3) {
+  \alert{Reactors} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  7 power reactors remain in operation, phase out planned\\
+  8 research reactors};
+
+  \node [cout, text width=5.5cm, callout absolute pointer={(8.5, 0.2)}, anchor=north] at (8.3,-2.3) {
+  \alert{Tactical Nuclear Weapons} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  20 B61 gravity bombs in one location (Büchel air base)\\ 
+};
+
+\end{tikzpicture}
+\end{frame}
+}
+#+END_EXPORT
+
+** NU full cold war                                         :B_ignoreheading:
+   :PROPERTIES:
+   :BEAMER_env: ignoreheading
+   :END:
+#+BEGIN_EXPORT latex
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{localimages/cc/nu/germany/germany-full.png}}
+\begin{frame}{Germany in Cold War Times}
+\begin{tikzpicture}[remember picture,overlay]
+    \tikzset{cout/.style={
+        rounded corners = 0.04cm,
+        draw,
+        text width=2.5cm,
+        align=flush left,
+        rectangle callout,
+        fill=nuco,
+        font=\scriptsize}};
+  
+  \node [cout, callout absolute pointer={(2.4,0.4)}, anchor=north] at (0.6,3.8) {
+  \alert{Fuel Fabrication} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  Framatome operates a plant in Lingen with a capacity of 650tHM/y\\
+  };
+  \node [cout, callout absolute pointer={(2.2,-1.6)},anchor=north] at (0.6,-2.3) {\alert{Uranium Enrichment} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  URENCO operates a plant in Gronau with a capacity of 4,000 tSWU/a\\
+};
+  \node<1-> [cout, callout absolute pointer={(4.4,-1)}, anchor=north] at (3.7,-2.3) {
+  \alert{Reactors} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  7 power reactors remain in operation, phase out planned\\
+  8 research reactors};
+
+  \node<1-> [cout, callout absolute pointer={(3.2, 1.8)}, anchor=north] at (3.7,3.8) {
+  \alert{Reprocessing} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  Pilot plant in Karlsruhe, shutdown 1991 (35 tHM/y),\\ 
+  Large plant in Wackersdorf cancelled (350 tHM/y)\\};
+
+  \node<2-> [cout, rectangle, anchor=north] at (0.6,0.6) {
+  \alert{Mining / Conversion} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  (West) Germany never had significant mining/conversion capacities\\};
+
+  \node<2-> [cout, text width=5.5cm, callout absolute pointer={(8.5, 0.2)}, anchor=north] at (8.3,-2.3) {
+  \begin{tcolorbox}[standard jigsaw, height=1.4cm, valign=top, width=\textwidth, sharp corners, size=tight, frame empty, opacityback=0]
+  \alert{Tactical Nuclear Weapons} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  About 4000 nuclear weapons at approx. 200 different locations:\\
+  \only<3->{Lance Missile}\only<3->{, Sergeant Missile}\only<3->{, Pershing I}%
+  \only<4->{, Atomic Demolition Munitoin}\only<4->{, Artillery Shells}\only<4->{, Honest John Missile}%
+  \only<5->{, Nike Anti Aircraft Missile}\only<5->{, Gravity Bombs}\only<5->{, Pershing II, ...}
+  \end{tcolorbox}
+};
+
+  \tikzset{timage/.style={anchor=north west, inner sep=0pt}};
+  \node<3-> [timage] at (-0.8, 3.8) {\includegraphics[width=2cm]{localimages/cc/weapons/MGM-52_Lance_02_ratio3-4.jpg}};
+  \node<3-> [timage] at (1.2, 3.8) {\includegraphics[width=2cm]{localimages/cc/weapons/MGM-29_Sergeant_05_ratio3-4.jpg}};
+  \node<3-> [timage] at (3.2, 3.8) {\includegraphics[width=2cm]{localimages/cc/weapons/OR_10.596B_13_ratio3-4.png}};
+
+  \node<4-> [timage] at (-0.8, 1.13 ) {\includegraphics[width=2cm]{images/cc/weapons/Medium_Atomic_Demolition_Munition_(with_scientists)_ratio3-4.jpg}};
+  \node<4-> [timage] at (1.2, 1.13) {\includegraphics[width=2cm]{localimages/cc/weapons/Mk33-and-W48_ratio3-4.jpg}};
+  \node<4-> [timage] at (3.2, 1.13) {\includegraphics[width=2cm]{localimages/cc/weapons/MGR-1_Honest_John_06_ratio3-4.jpg}};
+
+  \node<5-> [timage] at (-0.8, -1.54) {\includegraphics[width=2cm]{localimages/cc/weapons/Nike_Hercules_1980_ratio3-4.jpg}};
+  \node<5-> [timage] at (1.2, -1.54) {\includegraphics[width=2cm]{localimages/cc/weapons/B-61_bomb_rack_ratio3-4.jpg}};
+  \node<5-> [timage] at (3.2, -1.54) {\includegraphics[width=2cm]{localimages/cc/weapons/797px-Pershing2MAN_ratio3-4.jpg}};
+
+  \node<3-> [inner sep=0pt, font=\clf\vvtiny, anchor=south west, rotate=90] at (-0.8, -4) {Images: Nike Hercules - CC-BY August Freimuth, others - Public Domain, U.S. Federal Government works, downloaded from Wikimedia Commons};
+
+%  \helpgridcornerdense[gray]
+%  \helpgridcorner[black]
+  
+\end{tikzpicture}
+\end{frame}
+}
+#+END_EXPORT
+
+*** Notes                                                            :B_note:
+    :PROPERTIES:
+    :BEAMER_env: note
+    :END:
+
+    NU - analytic tool, simplified map of nuclear weapon system
+    
+    Missing things like Nike, ADM, artillery
+
+** The Situation Today                                      :B_ignoreheading:
+   :PROPERTIES:
+   :BEAMER_env: ignoreheading
+   :END:
+
+#+BEGIN_EXPORT latex
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{localimages/cc/nu/germany/germany-2018.png}}
+\begin{frame}{Germany Today}
+  \begin{tikzpicture}[remember picture,overlay]
+    \tikzset{cout/.style={
+        rounded corners = 0.04cm,
+        draw,
+        text width=2.5cm,
+        align=flush left,
+        rectangle callout,
+        fill=nuco,
+        font=\scriptsize}};
+
+  \node [cout, callout absolute pointer={(2.4,0.4)}, anchor=north] at (0.6,3.8) {
+  \alert{Fuel Fabrication} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  Framatome operates a plant in Lingen with a capacity of 650tHM/y\\
+  };
+  \node [cout, callout absolute pointer={(2.2,-1.6)},anchor=north] at (0.6,-2.3) {\alert{Uranium Enrichment} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  URENCO operates a plant in Gronau with a capacity of 4,000 tSWU/a\\
+};
+  \node [cout, callout absolute pointer={(4.4,-1)}, anchor=north] at (3.7,-2.3) {
+  \alert{Reactors} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  7 power reactors remain in operation, phase out planned\\
+  8 research reactors};
+
+  \node [cout, text width=5.5cm, callout absolute pointer={(8.5, 0.2)}, anchor=north] at (8.3,-2.3) {
+  \alert{Tactical Nuclear Weapons} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  20 B61 gravity bombs in one location (Büchel air base)\\ 
+};
+
+\end{tikzpicture}
+\end{frame}
+}
+#+END_EXPORT
+
+** 2023                                                     :B_ignoreheading:
+   :PROPERTIES:
+   :BEAMER_env: ignoreheading
+   :END:
+
+#+BEGIN_EXPORT latex
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{localimages/cc/nu/germany/germany-2023.png}}
+\begin{frame}{Nuclear Power Phase Out: 2023}
+  \begin{tikzpicture}[remember picture,overlay]
+    \tikzset{cout/.style={
+        rounded corners = 0.04cm,
+        draw,
+        text width=2.5cm,
+        align=flush left,
+        rectangle callout,
+        fill=nuco,
+        font=\scriptsize}};
+
+  \node [cout, callout absolute pointer={(2.4,0.4)}, anchor=north] at (0.6,3.8) {
+  \alert{Fuel Fabrication} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  Framatome operates a plant in Lingen with a capacity of 650tHM/y\\
+  };
+  \node [cout, callout absolute pointer={(2.2,-1.6)},anchor=north] at (0.6,-2.3) {\alert{Uranium Enrichment} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  URENCO operates a plant in Gronau with a capacity of 4,000 tSWU/a\\
+};
+  \node [cout, callout absolute pointer={(4.4,-1)}, anchor=north] at (3.7,-2.3) {
+  \alert{Reactors} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  Power reactors are shut down\\ Only research reactors remain\\};
+
+  \node [cout, text width=5.5cm, callout absolute pointer={(8.5, 0.2)}, anchor=north] at (8.3,-2.3) {
+  \alert{Tactical Nuclear Weapons} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  20 B61 gravity bombs in one location (Büchel air base)\\ 
+};
+
+\end{tikzpicture}
+\end{frame}
+}
+#+END_EXPORT
+
+** Goal for this presentation                               :B_ignoreheading:
+   :PROPERTIES:
+   :BEAMER_env: ignoreheading
+   :END:
+
+#+BEGIN_EXPORT latex
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{localimages/cc/nu/germany/germany-goal.png}}
+\begin{frame}[t]{A Future Goal?}
+\small 
+With a shrinking world nuclear energy market (and no domestic requirements), uranium enrichment and fuel fabrication facilities could be closed.
+
+\begin{tikzpicture}[remember picture, overlay]
+  \tikzset{shift={($(current page.center) - (5.4, 0.3)$ )}};
+  \tikzset{cout/.style={
+        rounded corners = 0.04cm,
+        draw,
+        text width=2.5cm,
+        align=flush left,
+        rectangle callout,
+        fill=nuco,
+        font=\scriptsize}};
+  \node [cout, callout absolute pointer={(4.4,-1)}, anchor=north] at (3.7,-2.3) {
+  \alert{Research Reactors} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  (No HEU fuel)\\};
+
+\end{tikzpicture}
+
+\end{frame}
+}
+
+#+END_EXPORT
+
+#+BEAMER: \note {
+Fuel Fabrication / Enrichment closure discussed by outgoing minister for environment barbara hendricks
+
+Legal Study undertaken, published in November 2017
+
+Problem: Treaty of Almelo. Apparently Germany could leave the treaty within a years time.
+#+BEAMER: }
+
+
+* More on Tactical Nuclear Weapons
+
+** Origins of NATO Nuclear Sharing
+
+*** North Atlantic Treaty (1949)
+    No statements with regard to nuclear weapons
+*** First Strategic Concept (1949)   
+    /Insure the ability to carry out strategic bombing including the prompt delivery of the atomic bomb. This is primarily a U.S. responsibility assisted as practicable by other nations./ @@latex:\\[0.1em]@@
+
+    \raggedleft \vtiny M.C. 3/2, Note by the Secretary to the North Atlantic Military Commitee on the Strategic Concept for the Defense of the North Atlantic Area, 1949, p. 23
+
+#+BEAMER: \pause
+*** North Atlantic Council Meeting (1957)
+/To this end, NATO has decided to establish stocks of nuclear warheads, which will be readily available for the defence of the Alliance in case of need./ @@latex:\\[0.1em]@@
+
+\hfill \vtiny Final Communiqué, Chairman: Mr. P.H. Spaak, Secretary General of NATO, December 16 1957
+
+# In view of the present Soviet policies in the field of new weapons, the Council has also decided that intermediate range ballistic missiles will have to be put at the disposal of the Supreme Allied Commander Europe
+*** Spring Meeting 1962                                            :noexport:
+"5. [...] In this respect Ministers welcomed the confirmation by the United States that it will continue to make available for the Alliance the nuclear weapons necessary for NATO defence, concerting with its allies on basic plans and arrangements in regard to these weapons. [...]
+"6. So that all member states may play their full part in consultation on nuclear defence policy, it has been decided to set up special procedures which will enable all members of the Alliance to exchange information concerning the role of nuclear weapons in NATO defence."
+\hfill \vtiny Final Communiqué, Mr. D. U. Stikker, Spring Ministerial Session, NATO Council 1962
+Nuclear Planning Group (1967)
+
+*** Defense and Deterrence Posture Review (2012)
+/As long as nuclear weapons exist, NATO will remain a nuclear alliance./
+
+/[...] seeking to create the conditions and considering options for further reductions of non-strategic nuclear weapons [...]/
+
+\hfill \vtiny NATO, 'Deterrence and Defence Posture Review', 2012
+
+
+** Today: Only one site
+
+#+BEAMER: \vspace{-0.8cm}
+#+BEAMER: \begin{center}
+\LARGE 
+20 B61 gravity bombs, Fliegerhorst Büchel
+#+BEAMER: \end{center}
+
+*** Columns							  :B_columns:
+    :PROPERTIES:
+    :BEAMER_env: columns
+    :BEAMER_opt: T
+    :END:      
+**** Left							      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_col: 0.5
+     :END:
+
+#+BEGIN_EXPORT latex
+\begin{imageboxplain}
+  \includegraphics[width=\textwidth]{localimages/cc/places/Buechel_Fliegerhorst.jpg}
+\end{imageboxplain}
+#+END_EXPORT     
+**** Right							      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_col: 0.5
+     :END:
+
+     \small
+
+     Büchel is a German Airbase in Rheinland Pfalz since 1958, hosts the @@latex:\\@@"Taktische Luftwaffengeschwader 33"@@latex:\\[0.4em]@@
+
+     B61 gravity bombs are to be delivered with German Tornado aircraft @@latex:\\[0.4em]@@
+
+     Weapons are stored in vaults in hangars "Weapon Storage and Security System" (WS3)
+
+
+
+*** Image Source                                            :B_ignoreheading:
+    :PROPERTIES:
+    :BEAMER_env: ignoreheading
+    :END:
+#+BEGIN_EXPORT latex
+\begin{tikzpicture}[remember picture, overlay]
+  \tikzset{shift={($(current page.center) - (5.4, 0.3)$ )}};
+
+  \node [anchor=south west, rotate=90, font=\vvtiny] at (-0.3, -2) {Image Source: CC-BY-SA 3.0, Stahlkocher, Wikimedia Commons};
+  
+  % \helpgridcornerdense[gray]
+  % \helpgridcorner[black]
+\end{tikzpicture}
+#+END_EXPORT
+
+** Use Cases                                                    :B_fullframe:
+   :PROPERTIES:
+   :BEAMER_env: fullframe
+   :BEAMER_opt: standout
+   :END:
+
+   What would be a credible scenario of use?
+
+#+BEAMER:\note{
+Tact nukes Useless (especially after 2020/25)
+#+BEAMER:}
+
+
+** Background Start                                         :B_ignoreheading:
+   :PROPERTIES:
+   :BEAMER_env: ignoreheading
+   :END:
+#+BEAMER: {
+#+BEAMER: \usebackgroundtemplate{\includegraphics[width=\paperwidth]{localimages/own/maps/tornado.pdf}}
+** Aircraft has Limited Range                                   :B_fullframe:
+   :PROPERTIES:
+   :BEAMER_env: fullframe
+   :BEAMER_opt: t
+   :END:
+
+#+BEGIN_EXPORT latex
+\vspace{0.7cm}
+   \textbf{Tornado has an operating\\
+   radius of 1390 km}
+#+END_EXPORT
+
+** Background End                                           :B_ignoreheading:
+   :PROPERTIES:
+   :BEAMER_env: ignoreheading
+   :ORDERED:  t
+   :END:
+#+BEAMER: }
+
+
+** Background Start                                         :B_ignoreheading:
+   :PROPERTIES:
+   :BEAMER_env: ignoreheading
+   :END:
+#+BEAMER: {
+#+BEAMER: \usebackgroundtemplate{\includegraphics[width=\paperwidth]{localimages/cc/deliverysystems/German_Tornado_refuelled_by_KC-10_ratio4-3.jpg}}
+** Refueling Can Be Difficult                                   :B_fullframe:
+   :PROPERTIES:
+   :BEAMER_env: fullframe
+   :END:
+
+#+BEGIN_EXPORT latex
+\begin{tikzpicture}[remember picture, overlay]
+  \tikzset{shift={($(current page.center) - (5.4, 0.3)$ )}};
+  
+  \node[anchor=north west, text width=6cm, align=flush left] at (-0.6, -1.8) {
+  Longer missions require refueling, which can only be done by aircrafts of other countries.
+  };
+  \node [anchor = south west, font=\clf\vtiny] at (-0.6, -4.4) {Image: Public Domain, U.S. Air Force photo/Staff Sgt. R. Alex Durbin};
+  
+  % \helpgridcornerdense[gray]
+  % \helpgridcorner[black]
+\end{tikzpicture}
+#+END_EXPORT
+
+#+BEAMER: \note{
+    Refueling of Tornados is technically possible.
+    Germany does not have large tankers.
+    Tornado to Tornado refueling is possibility, but limited in range.
+    Apparently, refueling from other aircraft was only part of a 1995 training in preparation for NATO missions, Germany paid for it (Tornado book)
+#+BEAMER: }
+
+** Background End                                           :B_ignoreheading:
+   :PROPERTIES:
+   :BEAMER_env: ignoreheading
+   :END:
+#+BEAMER: }
+
+
+** Outdated and Error Prone
+
+#+BEGIN_EXPORT latex
+\begin{center}
+
+End-of-life for Tornado aircraft soon, probably 2025.
+
+Last year, only 26 of 93 Tornado aircraft were combat-ready.\\[1em]
+
+\begin{tornpagetb}[fill=white]{top=0pt,bottom=0pt,width=0.9\textwidth}
+  \includegraphics[width=\textwidth]{localimages/quotes/BMV-2018-tornado.png}
+\end{tornpagetb}
+\scriptsize "Bericht zur materiellen Einsatzbereitschaft der Hauptwaffensysteme der Bundeswehr 2017", German Ministry of Defense, February 2018.
+
+
+\end{center}
+
+#+END_EXPORT     
+
+** Replacement Options
+
+#+BEAMER: \begin{imagebox2rows}[lefthand width=3.75cm]{images/cc/deliverysystems/1600px-German_eurofighter_ratio5-4.jpg}
+*Eurofighter* @@latex:\\@@
+\scriptsize
+European cooperative project by multinational Eurofighter Jagdflugzeug GmbH, Germany currently owns 128 planes@@latex:\\[0.1em]@@
+None is capable to carry the B61(-12), and adjustments are unlikely
+#+BEAMER: \end{imagebox2rows}
+
+#+BEAMER: \begin{imagebox2rows}[lefthand width=3.75cm]{images/cc/deliverysystems/1600px-F-35A_flight_(cropped)_ratio5-4.jpg}
+*F35* @@latex:\\@@
+\scriptsize
+US fighter jet by Lockheed Martin @@latex:\\[0.1em]@@
+Produced in the US, and in Italy @@latex:\\[0.1em]@@
+Capability to deliver B61-12 (planned)
+#+BEAMER: \end{imagebox2rows}
+
+\vvtiny Image Sources (top to bottom): @@latex:\\@@CC-BY-SA 3.0, Krasimir Grozev / Wikimedia Commons; @@latex:\\@@Public Domain, U.S. Air Force photo by Master Sgt. Donald R. Allen / Wikimedia Commons
+
+#+BEAMER:\note{
+after italian elections: 5 start movement wants to get rid of italian f35 production (and use
+#+BEAMER: }
+
+
+
+
+
+* Political Situation in Germany
+** Government Position (on Tactical Nuclear Weapons)
+
+#+BEAMER: \small
+
+Deterrence is necessary as long as nuclear weapons @@latex:\\@@ can be means of military conflicts
+
+NATO is a nuclear alliance
+
+Through nuclear sharing, Germany can remain part of NATO's nuclear planning
+
+#+BEAMER: \onslide<2->{
+*Commited to establish conditions for a world free of nuclear weapons*
+#+BEAMER: }
+
+\vspace{0.6cm}
+\vfill
+
+#+BEAMER: \begin{tornpagetb}[fill=white]{top=0pt,bottom=0pt,halign=flush left,fontupper=\tiny}
+Solange nukleare Waffen ein Mittel militärischer Auseinandersetzungen sein können, besteht die Notwendigkeit zu nuklearer Abschreckung fort. Die strategischen Nuklearfähigkeiten der Allianz, insbesondere die
+der USA, sind der ultimative Garant der Sicherheit ihrer Mitglieder. Die NATO ist weiterhin ein nukleares Bündnis. Deutschland bleibt über die nukleare Teilhabe in die Nuklearpolitik und die diesbezüglichen
+Planungen der Allianz eingebunden. Dies geht einher mit dem Bekenntnis Deutschlands zu dem Ziel, die
+Bedingungen für eine nuklearwaffenfreie Welt zu schaffen.
+#+BEAMER: \end{tornpagetb}
+\scriptsize 
+\hfill Weißbuch 2016 zur Sicherheitspolitik und zur Zukunft der Bundeswehr, p. 65
+
+#+BEAMER: \note{
+As long as nuclear weapons can be means of military conflicts, nuclear deterrence remains necessary.
+[...]
+This goes along with Germany's commitment to the goal of achieving the conditions for a nuclear weapon free world.
+(own translation, Weißbuch 2016 zur Sicherheitspolitik und zur Zukunft der Bundeswehr, p. 65)
+
+
+JANUS HEAD needed!
+#+BEAMER: }
+
+** Government Position (on Ban Treaty)
+
+*** Again                                                    :B_exampleblock:
+    :PROPERTIES:
+    :BEAMER_env: exampleblock
+    :END:
+    Support for the goal of a world without nuclear weapons and concrete nuclear disarmament steps
+
+*** But There are Concerns                                     :B_alertblock:
+    :PROPERTIES:
+    :BEAMER_env: alertblock
+    :END:
+    Ban Treaty is a danger for NPT and related non-proliferation and disarmament regime
+
+    States could see Ban Treaty as an alternative, therefore leave the NPT
+
+    Special concern: Verification (Lower verification standards as compared to NPT)
+
+*** Quote                                                   :B_ignoreheading:
+    :PROPERTIES:
+    :BEAMER_env: ignoreheading
+    :END:
+
+#+BEAMER: \vspace{0.7cm}
+
+#+BEAMER: \begin{tornpagetb}[fill=white]{top=0pt,bottom=0pt,halign=flush left,fontupper=\tiny}
+Die Bundesregierung teilt und unterstützt das Ziel einer Welt ohne Nuklearwaffen.  Wir stehen aktiv für dieses Ziel ein, indem wir uns entschieden für konkrete nukleare Abrüstungsschritte einsetzen. 
+[...]
+Der  aktuell  verhandelte  Verbotsvertrag  ist  nach  Ansicht  der  Bundesregierung  nicht  förderlich,  um  dem  Ziel  einer  nuklearwaffenfreien  Welt  näher  zu  kommen. Im  Gegenteil,  ein  solcher  Ansatz  droht  dem  bestehenden, von 191 Staaten Ratifizierten Nuklearen Nichtverbreitungsvertrag  (NVV)  und  dem  mit  ihm  verbundenen Kontrollregime  zur  Verhinderung  nuklearer  Proliferation  nachhaltigen  Schaden  zuzufügen  sowie  das  globale Nonproliferations- und Abrüstungsregime zu gefährden. Denn es kann nicht ausgeschlossen werden, dass Staaten einen Verbotsvertrag als Alternative zum NVV ansehen, im schlimmsten Fall letzteren verlassen könnten. Unsere  Besorgnis  gilt  insbesondere  der  wichtigen Frage  der  Verifikation:  Nach  derzeitigem  Stand  droht das  geplante  Atomwaffenverbot  hinter  die  heute  vorherrschenden Verifikationsstandards der Internationalen Atomenergie-Organisation  (IAEO)  und  der  NVV-Vertragsstaaten  zurückzufallen  und  dadurch  den  NVV  zu schwächen.
+#+BEAMER: \end{tornpagetb}
+\scriptsize 
+\hfill Dr. Maria Böhmer (Staatsministerin), Bundestagsprotokoll 18/239, Plenary Meeting, June 21, 2017.
+
+
+** (Selected) Foreign Ministers
+
+#+BEAMER: \begin{imagebox3rows}[fontlower=\scriptsize,lefthand width=2.1cm]{images/cc/people/1024px-Westerwelle_hamm_2009_square.jpg}
+*Guido Westerwelle, FDP †* @@latex:\\@@
+#+BEAMER: \tinyscriptsize
+Removal of tactical nuclear weapons was one of his key policy initiatives @@latex:\\[0.2em]@@
+Initiated (with colleagues) NATO discussion that lead to Chicago Summit 2012 declaration
+#+BEAMER: \end{imagebox3rows}
+
+#+BEAMER: \begin{imagebox3rows}[fontlower=\scriptsize,lefthand width=2.1cm]{images/cc/people/2017-03-19_Sigmar_Gabriel_SPD_Parteitag_by_Olaf_Kosinsky-3_square.jpg}
+*Sigmar Gabriel* @@latex:\\@@
+#+BEAMER: \tinyscriptsize
+While still being foreign minister, he supported SPD's chancellor candidate Martin Schulz, who anounced removal of tactical nuclear weapons as part of his campaign  @@latex:\\[0.2em]@@
+#+BEAMER: \end{imagebox3rows}
+
+#+BEAMER: \begin{imagebox3rows}[fontlower=\scriptsize,lefthand width=2.1cm]{images/cc/people/2017-03-26_Heiko_Maas_by_Sandro_Halank–1_square.jpg}
+*Heiko Maas* @@latex:\\@@
+#+BEAMER: \tinyscriptsize
+Designated new foreign minister, previously head of ministry of justice @@latex:\\[0.2em]@@
+No public position on tactical nuclear weapons (yet)
+#+BEAMER: \end{imagebox3rows}
+
+\vvtiny Image Sources (top to bottom): @@latex:\\@@
+ CC-BY 3.0, Dirk Vorderstraße/Wikimedia Commons; @@latex:\\@@
+CC-BY-SA 3.0, Olaf Kosinsky / kosinsky.eu; @@latex:\\@@
+CC-BY-SA 3.0, Sandro Halank, Wikimedia Commons.
+
+** Political Parties (2017 Federal Elections)
+#+BEGIN_EXPORT latex
+\begin{tikzpicture}[remember picture, overlay]
+  \tikzset{shift={($(current page.center) - (5.4, 0.3)$ )}};
+  \tikzset{cparty/.style={
+  font=\tinyscriptsize\slshape,
+  fill=white,
+  text width=4cm, 
+  align=flush left,
+  fill opacity=0.9,
+  rounded corners,
+  text opacity=1,
+  }};
+  \tikzset{oparty/.style={
+  cparty,
+  text width=6cm
+  }};
+  \tikzset{orparty/.style={
+  cparty,
+  text width=5cm
+  }};
+  \tikzset{titlep/.style={draw, drop shadow, fill=white,inner sep=0pt}}
+
+  \node (ctreaty) [at=(current page.center), shift={(0, 2cm)}, minimum width=2cm, minimum height=3.1cm] {};
+
+  \node (spd) [titlep, rotate=10, left = 1cm of ctreaty] {\includegraphics[page=1, width=2cm]{localimages/quotes/wp2017-spd-cover.pdf}};
+
+  \node (spd text) [at = (spd),cparty] {SPD: "A world without Nuclear Weapons and other WMDs remains our goal. [...] We stand for the withdrawal of tactical nuclear weapons from Germany and Europe as part of a European disarmament treaty."};
+
+  \node (cdu) [titlep, right = 1cm of ctreaty, rotate=-10] {\includegraphics[page=1, width=2cm]{localimages/quotes/wp2017-cducsu-cover.pdf}};
+  
+  \node<1>  (cdu text) [at=(cdu),cparty] {CDU: Nothing for 2017 };
+  \node<2-> (cdu text 2) [at=(cdu),orparty] {CDU: Nothing for 2017. \\ 2013: "We will support every initiative to reduce nuclear weapons and limit conventional forces that is fair and serves international security. An agreement on drastic reductions of nuclear weapons creates the prospect to strengthen the regime for non-proliferation of WMD [...]" };
+
+
+  \node (linke) [titlep, below left = 0.2cm and 3.5cm of ctreaty, rotate=10] {\includegraphics[page=1, width=1.5cm]{localimages/quotes/wp2017-linke-cover.pdf}};
+  \node (gruene) [titlep, below left = 2.2cm and -1.8cm of ctreaty,rotate=-10] {\includegraphics[page=1, width=1.5cm]{localimages/quotes/wp2017-gruene-cover.pdf}};
+
+  \node (linke text) [at=(linke.east),shift={(1.5cm,-0.2cm)},cparty] {Linke: The last US nuclear weapons stationed in germany must be removed and destroyed immediately. [...] DIE LINKE stands for a the abolition of nuclear weapons under international treaties.};
+  \node (gruene text) [at=(gruene.west),shift={(-1.9cm,-0.8cm)},oparty] {Grüne: "Worldwide disarmament must become a cornerstone of German and European foreign policy - especially in troubling times. We fight for a world without nuclear weapons and to outlaw them by an international convention. [...] We demand withdrawal of the nuclear weapons in Büchel and final abandoning of 'nuclear sharing'.};
+
+  \node (fdp) [titlep, below right = 0.4cm and 0.1cm of ctreaty,rotate=10] {\includegraphics[page=1, width=1.5cm]{localimages/quotes/wp2017-fdp-cover.pdf}};
+
+  \node (afd) [titlep,below right = 2.6cm and 3.5cm of ctreaty, rotate=-20] {\includegraphics[page=1, width=1.5cm]{localimages/quotes/wp2017-afd-cover.pdf}};
+
+  \node (fdp text) [at=(fdp.east),shift={(1cm,-0.2cm)},cparty] {FDP: "We need [...] a new diplomatic approach for arms control and disarmament. Germany and its close partners should take a leading role in this." (p. 105)};
+  \node (afd text) [at=(afd.west),shift={(-0.8cm,-0.8cm)},orparty] {AfD: "The AfD stands for the withdrawal of all allied troops stationed on German soil, and especially their nuclear weapons." (p. 31)};
+  
+  
+  % \helpgridcornerdense[gray]
+  % \helpgridcorner[black]
+\end{tikzpicture}
+#+END_EXPORT
+#+BEAMER: \tinyscriptsize
+
+** Political Parties (2017 Federal Elections)                      :noexport:
+#+BEAMER: \tinyscriptsize
+
+FDP: "We need [...] a new diplomatic approach for arms control and disarmament. Germany and its close partners should take a leading role in this." (p. 105)
+
+# FDP: Wir brauchen deshalb einen neuen diplomatischen Anlauf für Rüstungskontrolle und Abrüstung. Deutschland sollte hier zusammen mit seinen engen Partnern eine Führungsrolle übernehmen. (p. 105)
+
+AfD: "The AfD stands for the withdrawal of all allied troops stationed on German soil, and especially their nuclear weapons." (p. 31)
+
+# AfD: Die AfD setzt sich für den Abzug aller auf deutschem Boden stationierten alliierten Truppen und insbesondere ihrer Atomwaffen ein. (p. 31)
+
+Grüne: "Worldwide disarmament must become a cornerstone of German and European foreign policy - especially in troubling times. We fight for a world without nuclear weapons and to outlaw them by an international convention. [...] We demand withdrawal of the nuclear weapons in Büchel and final abandoning of 'nuclear sharing'.
+
+# It is irresponsible, that the federal government voted against the UN resolution for the prohibition of nuclear weapons in August 2016. We will continue to fight for complete nuclear disarmament. 
+# We are strictly against an independent atomic armament of the EU.
+
+# Grüne: Weltweite Abrüstung muss ein Grundpfeiler der deutschen und europäischen Außenpolitik werden – gerade in unruhigen Zeiten. Wir kämpfen für eine Welt ohne Atomwaffen und dafür, sie völkerrechtlich durch eine internationale Konvention zu ächten. Es ist unverantwortlich, dass die schwarz-rote Bundesregierung im August 2016 gegen einen VN-Resolutionsentwurf zum Verbot von Atomwaffen gestimmt hat. Wir werden weiter für die vollkommene atomare Abrüstung kämpfen. Wir GRÜNE fordern den Abzug der letzten Atomwaffen aus Büchel und die endgültige Aufgabe der völkerrechtswidrigen „nuklearen Teilhabe“. Wir sind strikt gegen eine eigenständige atomare Bewaffnung der EU.
+
+SPD: "A world without Nuclear Weapons and other WMDs remains our goal. [...] We stand for the withdrawal of tactictal nuclear weapons from Germany and Europe as part of a European disarmament treaty."
+# SPD (2017) Eine Welt ohne Atom- und Massenvernichtungswaffen bleibt unser Ziel. Wir unterstützen, dass sich große Teile der internationalen Staatengemeinschaft für die weltweite Abschaffung dieser Waffen einsetzen. Mit aller Entschiedenheit wenden wir uns gegen verantwortungslose Gedankenspiele über die Schaffung einer europäischen Atomwaffenmacht oder gar eine atomare Bewaffnung Deutschlands. Solche Überlegungen dienen nicht dem Frieden, sondern sie untergraben Grundelemente deutscher und europäischer Sicherheit! Deutschland hat sich im Zwei-plus-Vier-Vertrag und im Nichtverbreitungsvertrag (NVV) völkerrechtlich zum ausdrücklichen Verzicht auf Massenvernichtungswaffen verpflichtet. Allerdings erleben wir derzeit weltweit und auch in Europa einen anderen Trend: den zur Aufrüstung im nuklearen wie im nichtnuklearen Bereich. Wir unterstützen daher regionale Initiativen für Zonen, die frei von Massenvernichtungswaffen sind, und setzen uns nachdrücklich dafür ein, dass im Rahmen eines gesamteuropäischen Abrüstungsvertrags die verbliebenen taktischen Atomwaffen aus Deutschland und Europa abgezogen werden.
+
+#+BEGIN_QUOTE
+CDU: Nothing in 2017. 2013: "We will support every initiative to reduce nuclear weapons and limit conventional forces that is fair and serves international security. An agreement on drastic reductions of nuclear weapons creates the prospect to strengthen the regime for non-proliferation of WMD and stop the aspirations of additional states to become nuclear weapon states."
+#+END_QUOTE
+
+# CDU (2013) Jede faire und der internationalen Sicherheit dienende Initiative, Atomwaffen abzubauen und die konventionellen Streitkräfte zu begrenzen, werden wir unterstützen. Eine Vereinbarung über einen drastischen Abbau der Atomwaffen eröffnet die Aussicht, das Regelwerk für die Nichtverbreitung von Massenvernichtungswaffen zu stärken und das Streben weiterer Staaten in den Kreis der Atomwaffenmächte zu stoppen. Wir wollen die Überprüfungsmöglichkeiten der Internationalen Atomenergieorganisation stärken.
+
+Linke: The last US nuclear weapons stationed in germany must be removed and destroyed immediately. [...] DIE LINKE stands for a the abolition of nuclear weapons under international treaties.
+
+# Die letzten noch in Deutschland stationierten US-Atomwaffen müssen sofort abgezogen und vernichtet werden.Es dürfen keine modernisierten Atomwaffen in Deutschland stationiert und keine Mittel für die Modernisierung der Trägerflugzeuge für den Einsatz von Atomwaffen bereitgestellt werden. Die sogenannte Nukleare Teilhabe wollen wir beenden. (p. 96f.)
+
+# DIE LINKE tritt auch in der nächsten Legislaturperiode für eine vertragliche Ächtung von Atomwaffen weltweit ein. (p. 97)
+
+** (Some) Civil Society Actors
+
+*** ICAN Germany
+Part of ICAN, formally organized since 2014, based mostly in Berlin.
+
+*** IPPNW Germany
+National branch of IPPNW, founded in 1982.
+
+*** Trägerkreis Atomwaffen abschaffen
+Longstanding collaboration between various local groups. Most prominent campaign in recent past was "atomwaffenfrei.jetzt!".
+
+*** Heinrich Böll Stiftung
+Political foundation, close to Bündnis 90/Grüne. Supports research work of ICAN Germany.
+
+
+** Public Opinion
+
+#+BEAMER: \begin{center}
+\Large
+
+...depends on the question asked.@@latex:\\[1.5em]@@
+
+\small
+
+Recent ICAN Germany survey:@@latex:\\@@
+71% for ban, 14% against, 15% undecided
+
+#+BEAMER: \end{center}  
+
+\hfill \tiny Source for Survey: icanw.de
+
+* Treaty on the Prohibition of Nuclear Weapons (Ban Treaty)
+
+** Relevant Articles
+
+#+BEGIN_EXPORT latex
+%\tcbset{enhanced, fuzzy halo=fg, sharp corners, center}
+\setbeamertemplate{enumerate subitem}{(\alph{enumii})}
+\tcbset{enhanced, colback=white, sharpish corners, fuzzy halo=0.5mm with fg,boxrule=0pt}
+\begin{tcolorbox}[center, width=0.8\textwidth]
+\scriptsize
+\centering
+Article 1\\
+Prohibitions
+\tinyscriptsize
+\begin{enumerate}
+\item Each State Party undertakes never under any circumstances to:
+
+\begin{enumerate}
+\tinyscriptsize
+%\setcounter{enumii}{1}\item \textcolor<1>{gray!20}{\color<2->{gray!20}Develop, test, produce, manufacture, otherwise acquire, possess or stockpile nuclear weapons or other nuclear explosive devices;}
+\setcounter{enumii}{1}\item \textcolor<1-3>{gray!20}{\color<3->{fg}Transfer to any recipient whatsoever nuclear weapons or other nuclear explosive devices or control over such weapons or explosive devices directly or indirectly;}
+\setcounter{enumii}{2}\item \textcolor<1-3>{gray!20}{\color<3->{fg}Receive the transfer of or control over nuclear weapons or other nuclear explosive devices directly or indirectly;}
+\setcounter{enumii}{3}\item \textcolor<1>{gray!20}{\color<2->{fg}Use or threaten to use nuclear weapons or other nuclear explosive devices;}
+\setcounter{enumii}{4}\item \textcolor<1-2>{gray!20}{\color<3->{fg}Assist, encourage or induce, in any way, anyone to engage in any activity prohibited to a State Party under this Treaty;}
+\setcounter{enumii}{5}\item \textcolor<1-2>{gray!20}{\color<3->{fg}Seek or receive any assistance, in any way, from anyone to engage in any activity prohibited to a State Party under this Treaty;}
+\setcounter{enumii}{6}\item Allow any stationing, installation or deployment of any nuclear weapons or other nuclear explosive devices in its territory or at any place under its jurisdiction or control.
+\end{enumerate}
+\end{enumerate}
+\end{tcolorbox}
+#+END_EXPORT
+
+** Other Relevant Articles
+# could be all articles rotated boxes
+
+#+BEGIN_EXPORT latex
+%\tcbset{enhanced, fuzzy halo=fg, sharp corners, center}
+\setbeamertemplate{enumerate subitem}{(\alph{enumii})}
+\tcbset{enhanced, colback=white, sharpish corners, fuzzy halo=0.5mm with fg,boxrule=0pt}
+\begin{tikzpicture}[remember picture, overlay]
+\node at (current page.center) {
+\begin{tcolorbox}[center, width=0.6\textwidth]
+\tiny
+\centering
+Article 2\\
+Declarations
+\begin{enumerate}
+\item Each State Party shall submit to the Secretary-General of the United Nations, not later than 30 days after this Treaty enters into force for that State Party, a declaration in which it shall:
+
+\begin{enumerate}
+\tiny
+\item Declare whether it owned, possessed or controlled nuclear weapons or nuclear explosive devices and eliminated its nuclear-weapon programme, including the elimination or irreversible conversion of all nuclear-weapons-related facilities, prior to the entry into force of this Treaty for that State Party;
+%\setcounter{enumii}{1}\item Notwithstanding Article 1 (a), declare whether it owns, possesses or controls any nuclear weapons or other nuclear explosive devices;
+\setcounter{enumii}{2}\item Notwithstanding Article 1 (g), declare whether there are any nuclear weapons or other nuclear explosive devices in its territory or in any place under its jurisdiction or control that are owned, possessed or controlled by another State.
+%\item The Secretary-General of the United Nations shall transmit all such declarations received to the States Parties.
+\end{enumerate}
+\end{enumerate}
+\end{tcolorbox}
+};
+
+
+\node<2-> at (current page.center) [shift={(2, -1.5)}, rotate = -15] {
+\begin{tcolorbox}[center, width=0.6\textwidth]
+\tiny
+\centering
+Article 4\\
+Towards the total elimination of nuclear weapons
+\tiny
+\begin{enumerate}
+\setcounter{enumi}{4}\item Notwithstanding Article 1 (b) and (g), each State Party that has any nuclear weapons or other nuclear explosive devices in its territory or in any place under its jurisdiction or control that are owned, possessed or controlled by another State shall ensure the prompt removal of such weapons, as soon as possible but not later than a deadline to be determined by the first meeting of States Parties. Upon the removal of such weapons or other explosive devices, that State Party shall submit to the Secretary-General of the United Nations a declaration that it has fulfilled its obligations under this Article.
+\setcounter{enumi}{5}\item Each State Party to which this Article applies shall submit a report to each
+meeting of States Parties and each review conference on the progress made towards
+the implementation of its obligations under this Article, until such time as they are
+fulfilled.
+\end{enumerate}
+\end{tcolorbox}
+};
+
+\node<3-> at (current page.center) [shift={(-2, -1)}, rotate = 20] {
+\begin{tcolorbox}[center, width=0.6\textwidth]
+\tiny
+\centering
+Article 8\\
+Meeting of States Parties
+
+\begin{enumerate}
+\item The States Parties shall meet regularly in order to consider and, where
+necessary, take decisions in respect of any matter with regard to the application or
+implementation of this Treaty, in accordance with its relevant provisions, and on
+further measures for nuclear disarmament, including:
+
+\begin{enumerate}
+\tiny
+\item The implementation and status of this Treaty;
+\item Measures for the verified, time-bound and irreversible elimination of
+nuclear-weapon programmes, including additional protocols to this Treaty;
+\item Any other matters pursuant to and consistent with the provisions of
+this Treaty.
+\end{enumerate}
+\item The first meeting of States Parties shall be convened by the Secretary-
+General of the United Nations within one year of the entry into force of this Treaty.
+Further meetings of States Parties shall be convened by the Secretary-General of the
+United Nations on a biennial basis, unless otherwise agreed by the States Parties.
+The meeting of States Parties shall adopt its rules of procedure at its first session.
+Pending their adoption, the rules of procedure of the United Nations conference to
+negotiate a legally binding instrument to prohibit nuclear weapons, leading towards
+their total elimination, shall apply.
+\end{enumerate}
+\end{tcolorbox}
+};
+
+\node<4-> at (current page.center) [shift={(0, -2)}, rotate = 0] {
+\begin{tcolorbox}[center, width=0.6\textwidth]
+\tiny
+\centering
+Article 15\\
+Entry into Force
+
+\begin{enumerate}
+\item This Treaty shall enter into force 90 days after the fiftieth instrument of
+ratification, acceptance, approval or accession has been deposited.
+\item For any State that deposits its instrument of ratification, acceptance, approval
+or accession after the date of the deposit of the fiftieth instrument of ratification,
+acceptance, approval or accession, this Treaty shall enter into force 90 days after
+the date on which that State has deposited its instrument of ratification, acceptance,
+approval or accession.
+\end{enumerate}
+\end{tcolorbox}
+};
+
+\end{tikzpicture}
+
+#+END_EXPORT
+
+** How can Germany become a Member of the Ban Treaty?
+
+#+BEGIN_EXPORT latex
+\begin{tikzpicture}[remember picture, overlay]
+  \tikzset{shift={($(current page.center) - (4.9, 0.3)$ )}};
+  \tikzset{cout/.style={
+      rounded corners = 0.04cm,
+      draw,
+      text width=2.5cm,
+      fill=white,
+      align=flush left,
+      font=\scriptsize}};
+
+  \tikzset{dot/.style={circle, draw, fill=fg, minimum size=6mm}};
+
+  \coordinate (c1) at (0, 2);
+  \coordinate (c2) at (1.8, 0.7);
+  \coordinate (c3)  at (3.6, -3.05);
+  \coordinate (c4) at (6.5, -2.2);
+  \coordinate (c5) at (8, 1.4);
+  \coordinate (cmsp1) at (7.08, 0.3);
+  \coordinate (cmsp2) at (-1, 2);
+
+  \draw<1-> [thick, double=mLightBrown, double distance=3pt]
+  (-1.5, 2) to[out=0,in=180] (c1);
+  \draw<2-> [thick, double=mLightBrown, double distance=3pt, 
+  postaction={decorate,decoration={raise=-2.8mm, text along path,text align={left indent=17pt},text={|\tiny|typically years}}}]
+  (c1) to[out=0,in=115] (c2);
+  \draw<3-> [thick, double=mLightBrown, double distance=3pt,
+  postaction={decorate,decoration={raise=1.5mm, text along path,text align={left indent=35pt},text={|\tiny|90 days (Article 15.2)}}}]
+  (c2) to[out=-65,in=135] (c3);
+  \draw<4-> [thick, double=mLightBrown, double distance=3pt,
+  postaction={decorate,decoration={raise=-2.8mm, text along path,text align={left indent=20pt},text={|\tiny|max. 30 days (Article 2.1)}}}]
+  (c3) to[out=-45,in=250] (c4);
+  \draw<5-> [thick, double=mLightBrown, double distance=3pt]
+  (c4) to[out=70,in=215] (c5);
+  \draw<6-> [thick, double=mLightBrown, double distance=3pt,-implies]
+  (c5) to[out=35,in=180] (10.4, 2);
+
+
+  \node<1-> (s1) at (c1) [dot] {};
+  \node<1-> (signtxt) [cout, at = (s1.center), anchor=south west, text width=]{
+  \alert{Signature} %\\ \usebeamercolor[fg]{normal text}
+  %\tiny
+  %GWho signs treaties in Germany?\\
+  };
+
+  \node<2-> (s2) at (c2) [dot] {};
+  \node<2-> (rattext) [cout, at=(s2.center), anchor=north east]{
+  \alert{Ratification} \\ \usebeamercolor[fg]{normal text}
+  \tiny
+  Ratification is done by the German president, but only after the parliament has passed domestic laws\\ (not required for customary international law).
+  \\
+  };
+
+  \node<3-> (s3)  at (c3) [dot] {};
+  \node<3-> (eiftext) [cout, at=(s3.center), anchor = north east, text width=]{
+  \alert{Entry into force}
+  };
+
+  \node<4-> (s4) at (c4) [dot] {};
+  \node<4-> (declaretext) [cout, at=(s4.center), anchor = south east]{
+  \alert{Declaration}\\ \usebeamercolor[fg]{normal text}
+  \tiny Declaration to UN Secretary General of tactical nuclear weapons on Germany's territory (Article 2.1.c)\\};
+%  \draw[very thick] (s4.center) -| (declaretext.south);
+
+  \node<5-> (s5) at (c5) [dot] {};
+  \node<5-> (removetext) [cout, at=(s5.center), anchor = north west]{
+  \alert{Removal of Weapons}\\ \usebeamercolor[fg]{normal text}
+  \tiny All tactical nuclear weapons have to be removed. After removal, Germany submits declaration to UN Secretary General that obligations are fulfilled (Article 4.4)\\};
+  % \draw [postaction={decorate,decoration={raise=-2.8mm, text along path,text align={left indent=250pt},text={|\tiny|max. 30 days (Article 2.1)}}}]
+  % (-1.5, 2) to[out=0,in=180] (c1)
+  % to[out=0,in=115] (c2) 
+  % to[out=-65,in=135] (c3)
+  % to[out=-45,in=250] (c4)
+  % to[out=70,in=215] (c5)
+  % to[out=35,in=180] (10.4, 2);
+  % \draw [postaction={decorate,decoration={raise=-2.8mm, text along path,text align={left indent=60pt},text={|\tiny|typically years}}}]
+  % (-1.5, 2) to[out=0,in=180] (c1)
+  % to[out=0,in=115] (c2) 
+  % to[out=-65,in=135] (c3)
+  % to[out=-45,in=250] (c4)
+  % to[out=70,in=215] (c5)
+  % to[out=35,in=180] (10.4, 2);
+  \node<7-> (msp1) at (cmsp1) [dot, fill=bg, very thick, dashed, draw] {};
+  \node<7-> (msp1text) [cout, below=0.5cm of removetext,anchor = north]{
+  \alert{Report to MSP*}\\ \usebeamercolor[fg]{normal text}
+  \tiny If meeting of States Parties in this time, Germany reports on current status of removal process (Article 4.5)\\};
+  \draw<7->[very thick] (msp1.south) |- (msp1text);
+
+  \node<8-> (msp2) at (cmsp2) [dot, fill=bg, very thick, dashed, draw] {};
+  \node<8-> (msp2text) [cout, above=2.9cm of declaretext,anchor = south]{
+  \alert{First MSP*}\\ \usebeamercolor[fg]{normal text}
+  \tiny Deadline for removal is set by first meeting of States Parties\\(Article 4.4, Article 8.2)\\};
+
+%  \draw[->, thick] (msp2text.south) |- (s5.south west);
+  \draw<8->[->, thick, dashed] (msp2text.south east) -- (7.4, 1);
+  \draw<8->[very thick] (msp2.north) |- (msp2text.west);
+%  \draw[very thick] (msp2text.south) -- ++(0,-2) -| (msp1.north);
+%  \draw<9->[very thick] (msp2text.south) |- (msp1.west);
+
+  \node<7-> [font=\tinyscriptsize, anchor=east] at (10.5, -3.9) {*MSP = Meeting of State Parties};
+%  \helpgridcornerdense[gray]
+%  \helpgridcorner[black]
+\end{tikzpicture}
+#+END_EXPORT
+
+** Most legislation for ratification in place
+
+*** Columns							  :B_columns:
+    :PROPERTIES:
+    :BEAMER_env: columns
+    :BEAMER_opt: T
+    :END:      
+**** Kriegswaffenkontrollgesetz (KrWaffKontrG)                :B_block:BMCOL:
+     :PROPERTIES:
+     :BEAMER_col: 0.45
+     :BEAMER_env: block
+     :END:
+/Law to control weapons of war/
+
+ § 17 Prohibition of Nuclear Weapons
+
+ \tiny Forbidden are: development, production, trade, import, export, transit/transport, having control over nuclear weapons} @@latex:\\[0.4em]@@
+
+ \scriptsize
+
+ § 19 Fines and Penalties (Nuclear Weapons) @@latex:\\[0.6em]@@
+
+Law includes exemptions for 
+NATO nuclear sharing and 
+Elimination of nuclear weapons
+
+**** Strafgesetzbuch (StGB)                                   :B_block:BMCOL:
+     :PROPERTIES:
+     :BEAMER_col: 0.45
+     :BEAMER_env: block
+     :END:
+
+\vspace{1.4em}
+
+/Criminal Code/
+
+§ 307 Causing an explosion with @@latex:\\@@ nuclear energy @@latex:\\[0.4em]@@
+
+§ 328 Unallowed handling of radioactive materials and other dangerous @@latex:\\@@ materials and goods
+
+*** No Heading for space                                    :B_ignoreheading:
+    :PROPERTIES:
+    :BEAMER_env: ignoreheading
+    :END:
+
+\vspace{0.8cm}
+
+*** Legislative To Do List                                     :B_alertblock: 
+    :PROPERTIES:
+    :BEAMER_env: alertblock
+    :END:
+
+    1) Remove NATO nuclear sharing exemption
+    2) Introduce regulations prohibiting threat of use of nuclear weapons
+
+** After Joining the Treaty
+
+*** Other Actions Required
+    
+    - Keep safeguards agreements in place
+    - Leave NATO nuclear planning group 
+    - Participate at meetings of State Parties and convince other countries to join
+
+*** Some (speculative) Implications
+
+   - Germany's ratification could motivate other countries to join, @@latex:\\@@ triggering a (small) wave of signatories
+   - A joint European approach strengthens european collaboration @@latex:\\@@ with regard to defense strategies
+   - Less tactical nuclear weapons - lower security risk (unintended use, malfunction)
+   - Removal of tactical weapons could be a trigger for other arms control negotiations
+
+* Verification Options
+** Problematic Process:                                         :B_fullframe:
+   :PROPERTIES:
+   :BEAMER_opt: standout
+   :BEAMER_env: fullframe
+   :END:
+   
+   How to verify the removal of something secret that gets transported secretly out of the country?
+
+** Option 1: "We trust you" 
+
+   \Large No verification of warhead removal
+
+   \normalsize
+
+   1) Germany asks US to take weapons back
+   2) Weapons are transferred to US
+   3) Germany declares removal to UN Secretary General
+
+** Option 2: "Monitor Transport"
+
+   \Large Verification of abscence in single location
+
+   \normalsize
+
+   1) Germany asks US to take weapons back
+   2) While weapons are transferred, the transfer is monitored
+   3) Germany declares removal to UN Secretary General
+
+** Option 3: "Declared Locations"
+   
+   \Large Verification of absence in multiple locations
+
+   \normalsize
+
+   1) Germany asks US to take weapons back
+   2) Several (only one?) location is visited by foreign inspectors to certify no weapons are presence.
+   3) Germany declares removal to UN Secretary General
+
+   There are numerous locations that hosted tactical nuclear weapons in the past. Comprehensive Confidence Building Measures could include access to all these facilities.
+   
+#+BEAMER: \note{
+    warhead authentication
+      - very unlikely that this already qualifies as "important enough", americans wuld never agree
+#+BEAMER: }
+
+** Option 4: "All-out verification"
+
+   \Large Verification of absence in randomly picked locations
+
+   \normalsize
+
+   1) Germany asks US to take weapons back
+   2) Several (only one?) location is visited by foreign inspectors to certify no weapons are presence.
+   3) Germany declares removal to UN Secretary General
+   4) (Verification continues)
+
+** Addons
+
+*** Columns							  :B_columns:
+    :PROPERTIES:
+    :BEAMER_env: columns
+    :BEAMER_opt: T
+    :END:      
+**** Addon 1: (No) Warhead Verification                       :B_block:BMCOL:
+     :PROPERTIES:
+     :BEAMER_col: 0.45
+     :BEAMER_env: block
+     :END:
+
+     Use removal as a test bed for verification technologies (one could proof that at all objects removed are equal). 
+
+     Alternative: "Ceci n'est pas une bombe"
+
+**** Addon 2: Joined European Approach                        :B_block:BMCOL:
+     :PROPERTIES:
+     :BEAMER_col: 0.45
+     :BEAMER_env: block
+     :END:
+
+     Other nuclear sharing countries might also request removal
+
+*** IH                                                      :B_ignoreheading:
+    :PROPERTIES:
+    :BEAMER_env: ignoreheading
+    :END:
+
+#+BEAMER: \vspace{0.8cm}
+
+*** Columns							  :B_columns:
+    :PROPERTIES:
+    :BEAMER_env: columns
+    :BEAMER_opt: T
+    :END:      
+**** Addon 3: Delivery System                                 :B_block:BMCOL:
+     :PROPERTIES:
+     :BEAMER_col: 0.45
+     :BEAMER_env: block
+     :END:
+
+     Having no capable delivery systems could be an indication that weapons are gone.
+
+**** Addon 4: Activation                                      :B_block:BMCOL:
+     :PROPERTIES: 
+     :BEAMER_col: 0.45
+     :BEAMER_env: block
+     :END:
+
+     Warhead (neutron sources) are stored in underground vaults. What can we learn from possible activation measurements?
+     
+
+
+** Summary / Conclusion
+
+# #+BEAMER: \footnotesize \textbf{Summary}
+*** Columns							  :B_columns:
+    :PROPERTIES:
+    :BEAMER_env: columns
+    :BEAMER_opt: T
+    :END:      
+**** Left							      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_col: 0.3
+     :END:
+
+#+BEGIN_EXPORT latex
+\tcbset{enhanced, colback=white, sharpish corners, fuzzy halo=0.5mm with fg,size=minimal}
+\begin{tcolorbox}
+\includegraphics[width=\textwidth]{localimages/cc/nu/germany/germany-goal.png}
+\end{tcolorbox}
+#+END_EXPORT
+
+**** Middle                                                           :BMCOL:
+     :PROPERTIES:
+     :BEAMER_col: 0.3
+     :END:
+#+BEGIN_EXPORT latex
+\tcbset{enhanced, colback=white, sharpish corners, fuzzy halo=0.5mm with fg,size=minimal}
+\begin{tcolorbox}
+\includegraphics[width=\textwidth]{process}
+\end{tcolorbox}
+#+END_EXPORT
+
+
+
+**** Verification                                                     :BMCOL:
+     :PROPERTIES:
+     :BEAMER_col: 0.3
+     :END:
+
+#+BEGIN_EXPORT latex
+\tcbset{enhanced, colback=white, sharpish corners, fuzzy halo=0.5mm with fg,size=small,boxrule=0pt, height=0.75\textwidth}
+\begin{tcolorbox}
+\centering
+
+\scriptsize
+     Verification Options\\[0.8em]
+ \tinyscriptsize
+     We Trust You!\\[0.2em]
+     Monitor Transport\\[0.2em]
+     Declared Locations\\[0.2em]
+     All-out Verification\\[0.2em]
+\end{tcolorbox}
+#+END_EXPORT
+
+*** IG                                                      :B_ignoreheading:
+    :PROPERTIES:
+    :BEAMER_env: ignoreheading
+    :END:
+
+#+BEAMER: \pause
+#+BEAMER: \vspace{0.5cm}
+
+*** Final Thoughts
+    Joining the Ban Treaty is possible for Germany
+
+    Implications can be promising, should be studied further
+    
+    Verification is not required, but options exist
+
+*** Recommendations for Activists/Lobbyists
+   Advocate jointly for removal and joining of ban treaty
+
+   Work jointly with other nuclear sharing states
+
+*** Notes                                                            :B_note:
+    :PROPERTIES:
+    :BEAMER_env: note
+    :END:
+   Tactical nuclear weapons are useless
+
+   Joining the ban would be relatively easy
+
+   Verification remains an open question 
+
+
+
+* Image References                                               :B_appendix:
+  :PROPERTIES:
+  :BEAMER_env: appendix
+  :END:
+
+** Image References
+
+#+BEGIN_EXPORT latex
+\tiny 
+
+\textcolor{gray}{In order of appearance, own work not listed}\\[0.5em]
+
+MGM-52C Lance: Public Domain, U.S. Army, \url{https://commons.wikimedia.org/wiki/File:MGM-52_Lance_02.jpg} (visited: 2018-03-09).\\[0.3em]
+
+MGM-29 Sergeant: Public Domain, U.S. Army, \url{https://de.wikipedia.org/wiki/Datei:MGM-29_Sergeant_05.jpg} (visited: 2018-03-09).\\[0.3em]
+
+Pershing 1 in West Germany: Public Domain, U.S. Army, \url{https://commons.wikimedia.org/wiki/File:OR_10.596B_13.png} (visited: 2018-03-09).\\[0.3em]
+   
+Medium Atomic Demolition Munition: Public Domain, Department of Defense, \url{https://de.wikipedia.org/wiki/Datei:Medium_Atomic_Demolition_Munition_(with_scientists).jpg} (visited: 2018-03-09).\\[0.3em]
+
+W33 nuclear artillery projectile: Public Domain, U.S. Department of Energy, \url{https://en.wikipedia.org/wiki/File:Mk33.jpg} (visited: 2018-03-09).\\[0.3em]
+
+Model of the W48 155-millimeter nuclear artillery shell: Public Domain, U.S. Department of Energy, \url{https://en.wikipedia.org/wiki/File:W48_155-millimeter_nuclear_shell.jpg} (visited: 2018-03-09).\\[0.3em]
+
+MGR-1 Honest John in Hawaii: Public Domain, U.S. Army, \url{https://commons.wikimedia.org/wiki/File:MGR-1_Honest_John_06.jpg} (visited: 2018-03-09).\\[0.3em]
+
+Nike-Hercules missiles in Section A of unit 1./FlaRakBtl 22: CC-BY 3.0, August Freimuth, \url{https://de.wikipedia.org/wiki/Datei:Nike_Hercules,_Sect._A,_Oedingen,_1980.JPG} (visited: 2018-03-04).\\[0.3em]
+
+"A frontal view of four B-61 nuclear free-fall bombs on a bomb cart. (Released to Public) Location: BARKSDALE AIR FORCE BASE, LOUISIANA (LA) UNITED STATES OF AMERICA (USA) DoD photo by: SSGT PHIL SCHMITTEN Date Shot: 1 Dec 1986". B-61 bombs (probably trainers).: Public Domain, United States Department of Defense (SSGT Phil Schmitten), \url{http://de.wikipedia.org/wiki/Datei:B-61_bomb_rack.jpg} (visited: 2014-08-22).\\[0.3em]
+#+END_EXPORT
+
+** Image References 2
+
+#+BEGIN_EXPORT latex
+\tiny
+
+Pershing II (MGM-31B): Public Domain, U.S. Army, \url{https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Pershing2MAN.jpg/797px-Pershing2MAN.jpg} (visited: 2018-03-09).\\[0.3em]
+
+Fliegerhorst Büchel: CC-BY-SA 3.0, Stahlkocher, \url{http://commons.wikimedia.org/wiki/File:Büchel_Fliegerhorst.jpg} (visited: 2014-09-01).\\[0.3em]
+
+German Tornado Refuelled by KC-10: Public Domain, U.S. Air Force photo/Staff Sgt. R. Alex Durbin, \url{https://commons.wikimedia.org/wiki/File:German_Tornado_refuelled_by_KC-10.jpg} (visited: 2018-03-09).\\[0.3em]
+
+German Eurofighter during takeoff: CC-BY-SA 3.0, Krasimir Grozev / WIkimedia Commons, \url{https://de.wikipedia.org/wiki/Datei:German_eurofighter.JPG} (visited: 2018-03-10).\\[0.3em]
+
+U.S. Air Force F-35A Lightning II Joint Strike Fighter: Public Domain, U.S. Air Force photo by Master Sgt. Donald R. Allen, \url{https://commons.wikimedia.org/wiki/File:F-35A_flight_(cropped).jpg} (visited: 2018-03-13).\\[0.3em]
+
+Guido Westerwelle: CC-BY 3.0, Dirk Vorderstraße, \url{https://de.wikipedia.org/wiki/Datei:Westerwelle_hamm_2009.jpg} (visited: 2018-03-10).\\[0.3em]
+
+Sigmar Gabriel: CC-BY-SA 3.0, Olaf Kosinsky / kosinsky.eu, \url{https://commons.wikimedia.org/wiki/File:2017-03-19_Sigmar_Gabriel_SPD_Parteitag_by_Olaf_Kosinsky-3.jpg} (visited: 2018-03-10).\\[0.3em]
+
+Heiko Maas: CC-BY-SA 3.0, Sandro Halank, Wikimedia Commons, \url{https://commons.wikimedia.org/wiki/File:2017-03-26_Heiko_Maas_by_Sandro_Halank–1.jpg} (visited: 2018-03-10).\\[0.3em]
+
+#+END_EXPORT
