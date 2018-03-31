@@ -3,7 +3,7 @@
 
 This is a presentation given by me in March 2018. It covers basic concepts on how Germany could join the Treaty on the Prohibition of Nuclear Weapons (Ban Treaty).
 
-[Download presentation as PDF](https://github.com/ohnemax/germany-ban-treaty/raw/master/ban_talk.pdf)
+[Download presentation as PDF](https://github.com/ohnemax/germany-ban-treaty/raw/master/ban-talk.pdf)
 
 ## Abstract 
 
